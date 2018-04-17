@@ -73,3 +73,5 @@ first_word_freqs <- data.frame(term = names(first_frequency), num = first_freque
 # Create a wordcloud for the values in word_freqs
 wordcloud(first_word_freqs$term, first_word_freqs$num,min.freq=5,max.words=500,colors=brewer.pal(8, "Paired"))
 ```
+
+![image](https://github.com/jl1222/NLP-final-project/blob/master/Unigram%20cloud.png)
