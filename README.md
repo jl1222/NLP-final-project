@@ -15,7 +15,7 @@ Trigram
 
 6. Emotional analysis (any one lexicon)
 
-## Collect tweets
+## Collect tweets (by Python)
 ```{r}
 #OAuth process, using the keys and tokens
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
